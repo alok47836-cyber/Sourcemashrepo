@@ -225,3 +225,4 @@ class FeedAPI(Resource):
 api.add_resource(FeedListAPI, '/feeds', endpoint='feeds')
 api.add_resource(FeedListAllAPI, '/feeds/all', endpoint='feeds_all')
 api.add_resource(FeedAPI, '/feeds/<int:id>', endpoint='feed')
+api.add_resource(FeedAPI, '/feeds/<int:id>', endpoint='feed')
